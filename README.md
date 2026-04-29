@@ -3,36 +3,38 @@ The application processes student test results and performs End-of-Day (EOD) and
 
 # clone url
 `git clone https://github.com/deepakj98/result_analyzer`
+####
 `cd result_analyzer`
 
 # install dependencies
-bundle install
+`bundle install`
 
 # setup database
-rails db:create
-rails db:migrate
+`rails db:create`
+####
+`rails db:migrate`
 
 # start redis-server
-redis-server
+`redis-server`
 
 # start sidekiq
-bundle exec sidekiq
+`bundle exec sidekiq`
 
 # start rails server
-rails s
+`rails s`
 
 # Endpoint
-POST /api/test_results
+`POST /api/test_results`
 
 # Request exampl
-curl -X POST http://localhost:3000/api/test_results \
+`curl -X POST http://localhost:3000/api/test_results \
   -H "Content-Type: application/json" \
   -d '{
     "student_name": "John Doe",
     "subject": "Math",
     "marks": 85,
     "timestamp": "2026-04-29T10:00:00Z"
-  }'
+  }'`
 
 # Daily Stats Job
 Runs every day at 6:00 PM
