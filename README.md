@@ -2,8 +2,8 @@
 The application processes student test results and performs End-of-Day (EOD) and monthly calculations.
 
 # clone url
-git clone https://github.com/deepakj98/result_analyzer
-cd result_analyzer
+`git clone https://github.com/deepakj98/result_analyzer`
+`cd result_analyzer`
 
 # install dependencies
 bundle install
