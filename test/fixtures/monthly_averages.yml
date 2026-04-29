@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  month: 2026-04-29
+  subject: MyString
+  avg_low: 1.5
+  avg_high: 1.5
+  result_count: 1
+
+two:
+  month: 2026-04-29
+  subject: MyString
+  avg_low: 1.5
+  avg_high: 1.5
+  result_count: 1

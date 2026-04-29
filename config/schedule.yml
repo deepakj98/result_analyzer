@@ -1,0 +1,9 @@
+daily_stats:
+  class: "DailyStatsJob"
+  queue: stats
+  cron: "0 18 * * *"
+
+monthly_average:
+  class: "MonthlyAverageJob"
+  queue: stats
+  cron: "0 18 * * 1"
