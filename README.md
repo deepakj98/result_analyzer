@@ -48,3 +48,6 @@ Groups results by subject
 executes only if:
 
 It is the Monday of the week that contains the third Wednesday of the month
+
+# Run the Test cases ( for services and controller )
+`bundle exec rspec`
